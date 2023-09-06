@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(72, 72, 74);
+}
+
+.container {
+  background-image: url(/Img/background.png);
+  background-position: center;
+  width: 300px;
+  max-height: 600px;
+  margin: 75px auto;
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.buttons img {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

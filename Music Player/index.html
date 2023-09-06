@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <nav>
+          <img src="/Img/less_than.png" alt="" />
+          <img src="/Img/menu.png" alt="" />
+        </nav>
+        <div class="song-img">
+          <img src="/Media/song_img.jpg" alt="" />
+        </div>
+        <div class="details">
+          <h1>Chaleya</h1>
+          <p>Jawan ft. Arjit Singh</p>
+        </div>
+        <audio id="songs">
+          <source src="/Media/Chaleya Jawan 128 Kbps.mp3" type="audio/mpeg"/>
+        </audio>
+        <input type="range" id="progress">
+        <div class="controls">
+            <div class="backword"><img src="/Img/backword.png" alt=""></div>
+            <div onclick="playPause()" class="play"><img class="playsong" src = "Img/play.png"; alt=""  id="ctrlIcon"></div>
+            <div class="forword"><img src="/Img/forward.png" alt=""></div> 
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    margin: 250px auto;
+}
+
+.btn{
+padding: 8px;
+width: 100px;
+border-radius: 30px;
+border: 0;
+background-color: rgb(62, 135, 187);
+box-shadow: 0 0 5px rgb(98, 88, 88);
+cursor: pointer;
+}
+
+.popup{
+    background-color:rgb(197, 209, 208) ;
+   width: 400px;
+   border-radius: 6px;
+   position: absolute;
+    top: 0;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: trasform 0.4s, top 0.4s;
+}
+
+.popup img{
+    width: 100px;
+    margin-top:-50px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px lightslategray;
+    color: green;
+}
+
+.checked{
+    padding: 6px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(74, 246, 71);
+box-shadow: 0 0 5px rgb(98, 88, 88);
+cursor: pointer;
+}
+
+.popup-open{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
